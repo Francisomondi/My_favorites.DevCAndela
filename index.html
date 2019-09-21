@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Favorites</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+   <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+        
+        <h1>My favorite books, foods, songs, and movies</h1>
+    <div class="container">
+       
+        <div class="items" id="books">
+            <h2>My favorite books</h2>
+            <ul>
+                <a href="https://www.oreilly.com/library/view/head-first-javascript/9781449340124/" target="_blank"><li>Head first javascript by <em>O`reilly</em></li></a>
+                <a href="https://www.oreilly.com/library/view/head-first-javascript/9781449340124/" target="_blank"><li>A book that changed my life by <em>Michael Gladwell</em></li></a>
+                <a href="https://www.oreilly.com/library/view/head-first-javascript/9781449340124/" target="_blank"><li>A killers mind by <em>Mike omer</em></li></a>
+                <a href="https://www.oreilly.com/library/view/head-first-javascript/9781449340124/" target="_blank"><li>The 7 habits of highly effective people by<em>O steven coney</em></li></a>
+                <a href="https://www.oreilly.com/library/view/head-first-javascript/9781449340124/" target="_blank"><li>Harry Potter and the Sorcerer's Stone by <em>J.K Rowlin</em></li></a>
+                
+            </ul>
+            <button id="color-button-blue" class="btn btn-secondary">Blue button</button>
+        </div>
+        <div class="items" id="foods">
+                <h2 id="h2">My favorite foods</h2>
+            <ul>
+                <li>Ugali</li>
+                <li>Pork Meat</li>
+                <li>Fish</li>
+                <li>Nyama Choma</li>
+                <li>Rice</li>
+               
+            </ul>
+            <a href="#">More Kenyan food</a><br>
+            <button id="color-button-green" class="btn btn-secondary">Green button</button>
+        </div>
+        <div class="items" id="songs">
+                <h2>My favorite songs</h2>
+                <ul>
+                   <li>Dear Mama by <a href="https://en.wikipedia.org/wiki/Tupac_Shakur" target="_blank"><em>Tupac</em></a></li>
+                   <li>Thugs mansion by  <a href="https://en.wikipedia.org/wiki/Tupac_Shakur" target="_blank"><em>Tupac</em></a></li>
+                   <li>KOD by <a href="https://en.wikipedia.org/wiki/J._Cole" target="_blank"><em>J. Cole</em></a></li>
+                   <li>Rieng by <a href="https://en.wikipedia.org/wiki/boondox" target="_blank"><em>boondox</em></a></li>
+                   <li>Wamlambeez by <a href="https://en.wiktionary.org/wiki/wamlambez" target="_blank"><em>Sailors Gang</em></a></li>
+                   
+                </ul>
+                <button type="button" id="color-button-brown" class="btn btn-secondary">Brown button</button>
+        </div>
+        <div class="items" id="movies">
+                <h2>My favorite movies</h2>
+                <ul>
+                   
+                    <a id="eli" href="https://www.imdb.com/title/tt1037705/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank"> <li>The book of Ali by <em>Denzel washington</em></li></a>
+                    <a href="https://www.imdb.com/title/tt2788710/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank"> <li>The interview by<em>Seth Rogan</em></li></a>
+                    <a href="https://www.imdb.com/title/tt2234155/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank"> <li>The Internship by <em>Owen wilson</em></li></a>
+                    <a href="https://www.imdb.com/title/tt1037705/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank"> <li>Love dont cost a thing by <em>Nick canon</em></li></a>       
+                    <a href="https://www.imdb.com/title/tt1037705/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank"> <li>Menace to society by <em>Tyril tumer</em></li></a>
+               </ul>
+               <button id="color-button-none" class="btn btn-secondary">None button</button>
+        </div>
+
+    </div>
+    <div class="row">
+        <main class="col-sm-8">
+          <form id="comment-form">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input id="first-name" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last name</label>
+              <input id="last-name" type="text" class="form-control">
+            </div>
+            <button type="submit" id="submit-button" class="btn btn-success">Submit</button>
+          </form>
+          <form id="comment-form">
+            <h3>Hobbies</h3>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="sports-checkbox">
+                <label class="form-check-label" for="sports-checkbox">
+                  Sports
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="games-checkbox">
+                <label class="form-check-label" for="games-checkbox">
+                  Video games
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="music-checkbox">
+                <label class="form-check-label" for="music-checkbox">
+                  Music
+                </label>
+              </div>
+            </div>
+            <h3>Favourite mode of transport</h3>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="car-radio" value="car" name="transport-method">
+                <label class="form-check-label" for="car-radio">
+                  Car
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="bike-radio" value="bike" name="transport-method">
+                <label class="form-check-label" for="bike-radio">
+                  Bike
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="other-radio" value="other" name="transport-method">
+                <label class="form-check-label" for="other-radio">
+                  Other
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="music-preference">
+                Favourite kind of music
+              </label>
+              <select class="form-control" id="music-preference">
+                <option value="rock">Rock</option>
+                <option value="jazz">Jazz</option>
+                <option value="classical">Classical</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </form>
+        </main>
+        <aside id="sidebar" class="col-sm-4 bg-info text-white">
+        </aside>
+      </div>
+
+   
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
